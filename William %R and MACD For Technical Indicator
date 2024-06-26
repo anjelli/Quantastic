@@ -1,0 +1,17 @@
+Stock Prediction Using William %R and MACD
+This project leverages technical analysis indicators, William %R and Moving Average Convergence Divergence (MACD), to predict stock price movements.
+
+William %R
+William %R, or Williams Percent Range, is a momentum indicator that measures overbought and oversold levels in a market. It ranges from -100 to 0 and helps identify potential reversal points by comparing the closing price to the high-low range over a specific period. A reading above -20 indicates overbought conditions, while below -80 signals oversold conditions.
+
+MACD
+The Moving Average Convergence Divergence (MACD) is a trend-following momentum indicator that shows the relationship between two moving averages of a security's price. The MACD is calculated by subtracting the 26-period EMA from the 12-period EMA, with the resulting line being the MACD line. A nine-day EMA of the MACD, called the signal line, is then plotted on top of the MACD line. When the MACD line crosses above the signal line, it indicates a bullish signal, while crossing below suggests a bearish signal.
+
+Project Goals
+The objective of this project is to integrate William %R and MACD indicators to enhance stock price prediction accuracy. By combining these indicators, we aim to identify more reliable buy and sell signals, ultimately improving trading strategies.
+
+Features
+Calculation and visualization of William %R and MACD for selected stocks
+Identification of overbought and oversold conditions using William %R
+Detection of bullish and bearish trends with MACD crossovers
+Integration of both indicators to generate comprehensive trading signals
